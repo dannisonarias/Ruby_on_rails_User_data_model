@@ -1,24 +1,39 @@
-# README
+# Toy App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is the second application for the Ruby on Rails Tutorial by Michael Hartl.
 
-Things you may want to cover:
+This app is generated with a scaffold that takes user names,emails, and microposts. With this app you  can create users and new microposts (which need to have a valid user id attached to them, and cannot be longer than 140 characters long. In order to create microposts, your URL should be .../microposts instead of .../users.
 
-* Ruby version
+You can see it live [heroku-live](https://secure-fortress-49127.herokuapp.com/)
 
-* System dependencies
+## Built With
 
-* Configuration
+- Ruby on Rails
+- VSCode
 
-* Database creation
+## Author
 
-* Database initialization
+👤 **Dannison Arias**
 
-* How to run the test suite
+- Github: [@dannisonarias](https://github.com/dannisonarias)
+- Twitter: [@AriasDannison](https://twitter.com/AriasDannison)
+- Linkedin: [Dannison Arias](https://www.linkedin.com/in/dannison-arias-777919190/)
 
-* Services (job queues, cache servers, search engines, etc.)
+## 🤝 Contributing
 
-* Deployment instructions
+Contributions, issues and feature requests are welcome!
 
-* ...
+Feel free to check the [issues page](issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Microverse
+- The Odin Project
+
+## 📝 License
+
+This project is [MIT](./license.md) licensed.
