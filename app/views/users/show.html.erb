@@ -6,9 +6,19 @@
 </p>
 
 <p>
+<strong>First micropost:</strong>
+<%= @user.microposts.first%>
+</p>
+
+
+
+
+<p>
   <strong>Email:</strong>
   <%= @user.email %>
 </p>
+
+
 
 <%= link_to 'Edit', edit_user_path(@user) %> |
 <%= link_to 'Back', users_path %>
