@@ -21,8 +21,8 @@ group :development do
 end
 
 group :production do
-source 'https://rubygems.org'
-  gem 'pg', '0.20.0'
+  source 'https://rubygems.org/'
+  gem 'pg', '0.20.0' 
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
